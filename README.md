@@ -8,17 +8,19 @@ uses requestAnimationFrame to generated eased stream values.
 // this is just a helper function that let's us visualize stream output in realtime
 const logstream = (s, label='') => {
   s = s || stream();
-  flyd.on(v => console.log(label + ' stream:', v.toJS ? v.toJS() : v), s);
+  flyd.on(v => console.log(label,'stream:', v), s);
   return s;
 };
 
-
+// create our stream and eased stream
 const seed$ = flyd.stream();
 const eased$ = easedStream(0.1, seed$)
 
 // setup logging for both streams
 logstream(seed$, 'seed');
 logstream(eased$, 'eased');
+
+// now try feeding some values into the stream...
 
 seed$(5)
 //-> seed stream: 5

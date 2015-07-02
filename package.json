@@ -1,8 +1,8 @@
 {
-  "name": "flyd-keepwhen",
-  "version": "1.0.2",
-  "description": "A keepWhen function for Flyd.",
-  "main": "keepwhen.js",
+  "name": "flyd-eased",
+  "version": "1.0.0",
+  "description": "A eased function for Flyd.",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
@@ -15,16 +15,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/paldepind/flyd-keepwhen.git"
+    "url": "https://github.com/gilbox/flyd-eased.git"
   },
   "keywords": [
     "flyd",
-    "keepwhen"
+    "eased"
   ],
-  "author": "Simon Friis Vindum",
+  "author": "Gil Birman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/paldepind/flyd-keepwhen/issues"
+    "url": "https://github.com/gilbox/flyd-eased/issues"
   },
-  "homepage": "https://github.com/paldepind/flyd-keepwhen"
+  "homepage": "https://github.com/gilbox/flyd-eased"
 }

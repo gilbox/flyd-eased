@@ -23,10 +23,13 @@ logstream(eased$, 'eased');
 // now try feeding some values into the stream...
 
 seed$(5)
+
 //-> seed stream: 5
+
 //-> eased stream: 5
 
 seed$(10)
+
 //-> seed stream: 10
 
 //-> eased stream: 7.5
@@ -37,7 +40,9 @@ seed$(10)
 //-> eased stream: 10
 
 seed$(-99)
+
 //-> seed stream: -99
+
 //-> eased stream: -44.5
 //-> eased stream: -71.75
 //-> eased stream: -85.375
